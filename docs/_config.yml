@@ -1,0 +1,34 @@
+title: Lean ゼミ
+description: Mathematics in Lean を読みながら Lean 4 で数学の証明を書くゼミ
+lang: ja
+baseurl: /Lean
+url: https://cstmatsunolab.github.io
+
+# サイト上部のメニュー（順番どおりに表示）
+nav:
+  - title: ホーム
+    url: /
+  - title: 日程
+    url: /schedule/
+  - title: 環境構築
+    url: /setup/
+  - title: 発表の準備
+    url: /presenting/
+  - title: 発展トラック
+    url: /advanced-track/
+  - title: 参考資料
+    url: /resources/
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - README.md
