@@ -11,7 +11,7 @@ permalink: /
 <dl class="facts">
   <dt>日時</dt><dd>毎週（曜日・時限は未定）</dd>
   <dt>場所</dt><dd>未定（オンライン参加の可否も未定）</dd>
-  <dt>期間</dt><dd>前期・後期の通年、全 26 回程度（予定）</dd>
+  <dt>期間</dt><dd>週 1 回、全 26 回程度（予定）</dd>
   <dt>対象</dt><dd>B2・B3（Lean も形式証明も初めての人）、M1</dd>
   <dt>持ち物</dt><dd>Lean と VS Code を入れたノート PC（<a href="{{ '/setup/' | relative_url }}">環境構築</a>）</dd>
 </dl>
@@ -48,5 +48,5 @@ permalink: /
 
 ## M1 の人へ
 
-MIL を進めながら、後半に個人課題として「小さなプログラミング言語の型安全性を Lean で証明する」ことに取り組む[発展トラック]({{ '/advanced-track/' | relative_url }})を用意しています。
+MIL を進めながら、後半に個人課題として「小さなプログラミング言語の型安全性を Lean で証明する」ことに取り組む[発展課題]({{ '/advanced-track/' | relative_url }})を用意しています。
 セキュリティの研究で使われる形式検証の入口になります。
